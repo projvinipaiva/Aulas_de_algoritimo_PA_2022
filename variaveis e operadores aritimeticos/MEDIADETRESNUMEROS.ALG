@@ -1,6 +1,6 @@
 Algoritmo "mediadetresnumeros"
-// Descrição   : media de tres linhas
-// Autor(a)    : Vinícius de Paiva
+// DescriÃ§Ã£o   : media de tres linhas
+// Autor(a)    : VinÃ­cius de Paiva
 // Data atual  : 08/03/2022
 Var
 n1,n2,n3,media: real
@@ -17,11 +17,11 @@ escreval ("Digite terceiro numero: ")
 leia(n3)
 escreval ("--------------------------------")
 // procesamento
-media <- n1+n2+n3/3
+media <- (n1+n2+n3)/3
 limpatela
 //saida
 escreval ("--------------------------------")
-escreval("A média de três numeros é: ", media)
+escreval("A mÃ©dia de trÃªs numeros Ã©: ", media)
 escreval ("--------------------------------")
 
 
