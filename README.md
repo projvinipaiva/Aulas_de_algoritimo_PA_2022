@@ -1,0 +1,1 @@
+# Aulas_de_algoritimo_PA_2022
