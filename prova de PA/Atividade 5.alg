@@ -1,6 +1,6 @@
 algoritmo "atividade6"
-// Função : atividade numero 5
-// Autor : Vinícius de Paiva
+// FunÃ§Ã£o : atividade numero 5
+// Autor : VinÃ­cius de Paiva
 // Data : 29/03/2022
 var
 nome: caractere
@@ -30,14 +30,14 @@ escreval("----------------------------------------------")
 
 //procesamento
 
-media <- n1,n2,n3,n4 /4
+media <- (n1+n2+n3+n4) /4
 
 limpatela
 
 //saida
 
 escreval("----------------------------------------------")
-escreval("A media do aluno é:", media)
+escreval("A media do aluno Ã©:", media)
 escreval("----------------------------------------------")
 
 fimalgoritmo
