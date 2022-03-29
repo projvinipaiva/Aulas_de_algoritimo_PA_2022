@@ -23,7 +23,7 @@ ntp <- n1*3
 escreval("----------------------------------------------")
 escreval("O dobro do seu numero é:", ndb)
 escreval("----------------------------------------------")
-escreval("O dobro do seu numero é:", ntp)
+escreval("O triplo do seu numero é:", ntp)
 escreval("----------------------------------------------")
 
 
