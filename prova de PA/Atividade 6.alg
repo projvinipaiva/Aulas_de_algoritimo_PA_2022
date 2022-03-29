@@ -1,6 +1,6 @@
-algoritmo "atividade5"
-  // Função : atividade numero 5
-// Autor : Vinícius de Paiva
+algoritmo "atividade6"
+  // FunÃ§Ã£o : atividade numero 6
+// Autor : VinÃ­cius de Paiva
 // Data : 29/03/2022
 var
 n1,ndb,ntp: real
@@ -21,9 +21,9 @@ ntp <- n1*3
 //Saida
 
 escreval("----------------------------------------------")
-escreval("O dobro do seu numero é:", ndb)
+escreval("O dobro do seu numero Ã©:", ndb)
 escreval("----------------------------------------------")
-escreval("O dobro do seu numero é:", ntp)
+escreval("O dobro do seu numero Ã©:", ntp)
 escreval("----------------------------------------------")
 
 
