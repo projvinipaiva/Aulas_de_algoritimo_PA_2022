@@ -1,6 +1,6 @@
 algoritmo "triangulo_logico"
-// FunÁ„o : serve para verificar os 3 lados de um triangulo, se ele pode ser existente e verificar o tipo que ele È
-// Autor : VinÌcius de Paiva MendonÁa Silva
+// Fun√ß√£o : serve para verificar os 3 lados de um triangulo, se ele pode ser existente e verificar o tipo que ele √©
+// Autor : Vin√≠cius de Paiva Mendon√ßa Silva
 // Data : 21/06/2022
 
 var
@@ -27,17 +27,17 @@ equi <- (a=b)e(a=c)e(b=c) e triangulo
 
 esc <- (a<>b)e(a<>c)e(b<>c) e triangulo
 
-iso <- (a=b)xou(a=c)xou(b=c) e triangulo
+iso <- ((a=b) e (a<>c)) ou ((a=c) e (a<>b)) ou ((b=c) e (b<>a)) e triangulo
 
 //saida
 escreval("---------------------------------------")
-escreval("È um tri‚ngulo?", triangulo)
+escreval("√© um tri√¢ngulo?", triangulo)
 escreval("---------------------------------------")
-escreval("È um tri‚ngulo equilatero?", equi)
+escreval("√© um tri√¢ngulo equilatero?", equi)
 escreval("---------------------------------------")
-escreval("È um tri‚ngulo escaleno?", esc)
+escreval("√© um tri√¢ngulo escaleno?", esc)
 escreval("---------------------------------------")
-escreval("È um tri‚ngulo isÛsceles?", iso)
+escreval("√© um tri√¢ngulo is√≥sceles?", iso)
 escreval("---------------------------------------")
 
 fimalgoritmo
