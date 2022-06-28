@@ -1,8 +1,8 @@
-algoritmo "MÈdia"
-// FunÁ„o :   Calcular a mÈdia
-// Autor : David.S
+algoritmo "M√©dia"
+// Fun√ß√£o :   Calcular a m√©dia
+// Autor : Vin√≠cius de Paiva Mendon√ßa Silva
 // Data : 28/06/2022
-// SeÁ„o de DeclaraÁıes
+// Se√ß√£o de Declara√ß√µes
 var
 
 nome: caracter
@@ -18,7 +18,7 @@ cond5:logico
 
 
 inicio
-// SeÁ„o de Comandos
+// Se√ß√£o de Comandos
 
 Escreva(" Digite seu nome: ")
 leia(nome)
@@ -38,11 +38,11 @@ escreval("   ")
 
 NF <- (NT + N1 + N2)/3
 
-//nota final for maior ou igual a 8.5, ent„o o conceito È A.
-//- nota final estiver entre 7.0 e 8.4, ent„o o conceito È B.
-//- nota final estiver entre 6.0 e 6.9, ent„o o conceito È C.
-//- nota final estiver entre 0.1 e 5.9, ent„o o conceito È D.
-//- nota final for igual a 0.0, ent„o o conceito È E
+//nota final for maior ou igual a 8.5, ent√£o o conceito √© A.
+//- nota final estiver entre 7.0 e 8.4, ent√£o o conceito √© B.
+//- nota final estiver entre 6.0 e 6.9, ent√£o o conceito √© C.
+//- nota final estiver entre 0.1 e 5.9, ent√£o o conceito √© D.
+//- nota final for igual a 0.0, ent√£o o conceito √© E
 
 //cond1
 
