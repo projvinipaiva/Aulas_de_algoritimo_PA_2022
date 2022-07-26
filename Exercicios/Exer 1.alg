@@ -1,6 +1,6 @@
-algoritmo "triangulo_logico"
-// FunÁ„o : codigo aninhado - mostra as variaÁıes de triangulos de escaleno,equilatero,isÛceles ese o triangulo e verdadeiro ou falso
-// Autor : VinÌcius de Paiva MendonÁa Silva
+algoritmo "triangulo_26_07"
+// Fun√ß√£o : codigo aninhado - mostra as varia√ß√µes de triangulos de escaleno,equilatero,is√≥celes ese o triangulo e verdadeiro ou falso
+// Autor : Vin√≠cius de Paiva Mendon√ßa Silva
 // Data : 26/07/2022
 
 var
@@ -22,26 +22,26 @@ escreval("---------------------------------------")
 
 se (a<(b+c)) e (b<(a+c)) e (c<(a+b)) entao
    escreval("---------------------------------------")
-   escreval("isso È um tri‚ngulo")
+   escreval("isso √© um tri√¢ngulo")
    escreval("---------------------------------------")
       se  (a=b) e (a=c) e (b=c) entao
          escreval("---------------------------------------")
-         escreval("isso È um tri‚ngulo equilatero")
+         escreval("isso √© um tri√¢ngulo equilatero")
          escreval("---------------------------------------")
       fimse
       se (a<>b) e (a<>c) e (b<>c) entao
          escreval("---------------------------------------")
-         escreval("isso È um tri‚ngulo escaleno")
+         escreval("isso √© um tri√¢ngulo escaleno")
          escreval("---------------------------------------")
       fimse
       se ((a=b) e (a<>c)) ou ((a=c) e (a<>b)) ou ((b=c) e (b<>a)) entao
          escreval("---------------------------------------")
-         escreval("isso È um tri‚ngulo isÛceles")
+         escreval("isso √© um tri√¢ngulo is√≥celes")
          escreval("---------------------------------------")
       fimse
  senao
    escreval("---------------------------------------")
-   escreval("isso n„o È um tri‚ngulo")
+   escreval("isso n√£o √© um tri√¢ngulo")
    escreval("---------------------------------------")
  fimse
 
